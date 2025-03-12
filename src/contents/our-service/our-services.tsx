@@ -22,7 +22,7 @@ export default function Services() {
             <button>Узнать подробнее</button>
           </div>
           <div>
-            <img src={analitics} alt="" />
+            <img  src={analitics} alt="" />
           </div>
         </div>
         <div className="services_onlineAcselerator">

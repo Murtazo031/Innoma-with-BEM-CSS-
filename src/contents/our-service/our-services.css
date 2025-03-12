@@ -38,3 +38,14 @@
   font-size: 18px;
   font-weight: 600;
 }
+@media (max-width: 760px){
+  .services_analitics,
+.services_onlineAcselerator{
+  flex-direction: column;
+}
+.services_analitics-text,
+.services_onlineAcselerator-text{
+  width: 95%;
+}
+
+}

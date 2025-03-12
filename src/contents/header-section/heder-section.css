@@ -15,6 +15,12 @@
     color: white;
     padding:2vh 0;
 }
+.menu{
+    display: none;
+    background-color: #fff;
+    padding: 2vh;
+    border-radius: 10px;
+}
 .navigation{
     display: flex;
     list-style: none;
@@ -26,8 +32,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin: 2vh;
-
+    margin-top: 10vh;
+   line-height: 1.5;
 }
 .hero-section h1{
     font-size: 44px;
@@ -47,4 +53,33 @@
     padding: 2vh;
     border-radius: 10px;
     font-size: 18px;
+}
+@media (max-width: 768px){
+    .menu {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+    .hero-section h1 {
+        font-size: 38px;
+    }
+    .hero-section button {
+        font-size: 16px;
+    }
+    .heder_section {
+        background-position: center;
+        text-align: center;
+    }
+}
+@media (max-width: 360px){
+    .hero-section h1 {
+        font-size: 28px;
+    }
+    .heder_section h3 {
+        font-size: 22px;
+    }
+    .header .logo {
+        width: 15vh;
+    }
 }

@@ -1,6 +1,7 @@
 import "./heder-section.css";
 import logo from "../../app/assets/img/logo.png"
 import Container from "../../components/container/container";
+import menu from "../../app/assets/img/menu.png"
 
 export default function HeaderSection(){
     return <section className="heder_section">
@@ -12,13 +13,14 @@ export default function HeaderSection(){
 function Header (){
     return <Container> 
        <header className="header">
-        <img src={logo} alt="" />
+        <img className='logo' src={logo} alt="" />
         <ul className="navigation">
             <li>Кто мы</li>
             <li>Услуги</li>
             <li>Акселератор</li>
             <li>Новости</li>
         </ul>
+        <div style={{display:'flex', alignItems:"center", gap:"10px"}}>
         <button style={{
             backgroundColor:"#07AF91",
             color:"white",
@@ -28,6 +30,8 @@ function Header (){
         }}>
             Войти
         </button>
+        <img className='menu' src={menu} alt="" />
+        </div>
        </header>
        <HeroSection/>
     </Container>
