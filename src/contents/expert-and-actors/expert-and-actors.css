@@ -1,0 +1,16 @@
+.experts-and-actors{
+	margin: 5vh 0;
+}
+.experts-and-actors h2 {
+	font-size: 32px;
+	color: #1178B2;
+}
+.experts-and-actors_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.experts-and-actors_flex-profile {
+	text-align: center;
+	width: 23%;
+}

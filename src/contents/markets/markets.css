@@ -1,0 +1,90 @@
+.markets {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5vh;
+    margin-top: 10vh;
+}
+.markets h1{
+  font-size: 28px;
+  color:    #1178B2;
+}
+.markets_region{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.markets_region div {
+    background-color: #EEF1F4;
+    padding: 2vh 8vh;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.markets_mena {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../../app/assets/img/stsbac.png");
+    background-repeat: no-repeat;
+   background-position: center;
+}
+.markets_mena-info {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4vh;
+}
+.markets_mena-info h2 {
+    color: #1178B2;
+    font-size: 32px;
+    font-weight: 700;
+}
+.markets_mena-info span {
+    color: #07AF91;
+}
+.markets_mena-info p {
+    font-size: 18px;
+}
+.markets_mena-info button {
+    border: none;
+    border-radius: 10px;
+    padding: 3vh 5vh;
+    font-size: 18px;
+    background-color: #38a0dd;
+    color: white;
+}
+.markets_mena-info_profile {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+.markets_mena-info_profile p {
+    color: grey;
+    font-size: 16px;
+}
+.markets_mena-info_profile h5 {
+    font-size: 20px;
+}
+.markets_mena-numbers {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vh;
+}
+.markets_mena-numbers div {
+    box-shadow: 0 0 5px grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8vh 2vh;
+    background-color: white;
+}
+.markets_mena-numbers h2 {
+    font-size: 48px;
+    color: #38a0dd;
+}
+.markets_mena-numbers p {
+    font-size: 18px;
+    color: grey;
+}

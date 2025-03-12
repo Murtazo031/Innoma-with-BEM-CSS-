@@ -1,0 +1,44 @@
+.about-acseleratos {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.about-acseleratos h2 {
+    color: #1178B2;
+}
+.about-acseleratos p {
+    font-size: 20px;
+}
+.about-acseleratos_numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-acseleratos_numbers div {
+    box-shadow: 0 0 5px grey;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    padding: 2vh;
+    border-radius: 10px;
+}
+.about-acseleratos_numbers h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #8BD7DC;
+}
+.about-acseleratos_numbers p {
+    font-size: 22px;
+}
+.about-acseleratos_playback {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}

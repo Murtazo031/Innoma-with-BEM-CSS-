@@ -1,0 +1,19 @@
+.footer {
+	background-image: url("../../app/assets/img/bacground.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.footer_text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	padding: 5vh 0;
+}
+.footer_text-pages {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 45%;
+}

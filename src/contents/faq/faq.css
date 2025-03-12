@@ -1,0 +1,42 @@
+.faq_flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15vh 0;
+}
+.faq_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.faq_flex-left{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: 15vh;
+	color: white;
+}
+.faq_flex-left div div {
+	display: flex;
+	align-items: center;
+	gap: 2vh;
+	color: white;
+}
+.faq_flex-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+	background-color: white;
+	padding: 5vh;
+	border-radius: 10px;
+	gap: 4vh;
+}
+.faq_flex-right input {
+	width: 99%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid lightgrey;
+	font-size: 22px;
+}

@@ -1,0 +1,48 @@
+.stoimost {
+	margin: 5vh 0;
+}
+.stoimost h2 {
+	font-size: 32px;
+	color: #1178B2;
+}
+.stoimost_grid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 5vh;
+}
+.stoimost_grid-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3vh;
+	box-shadow: 0 0 5px grey;
+	padding: 5vh 0;
+	border-radius: 10px;
+}
+.stoimost_grid-card h5 {
+	font-size: 20px;
+}
+.stoimost_grid-card ul {
+	border-top: 1px solid rgb(226, 225, 225);
+	list-style: decimal;
+	font-size: 18px;
+	width: 90%;
+	line-height: 2;
+	font-weight: 500;
+}
+.stoimost_grid-card div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid rgb(226, 225, 225);
+	width: 96%;
+	padding: 1vh;
+}
+.stoimost_grid-card p {
+	font-weight: 600;
+}
+.stoimost_grid-price {
+	color: #1178B2;
+	font-weight: 600;
+	text-decoration: underline;
+}

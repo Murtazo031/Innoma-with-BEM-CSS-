@@ -1,0 +1,30 @@
+.results {
+	margin: 5vh 0;
+}
+.results h2 {
+	font-size: 32px;
+	color: #1178b2;
+}
+.results_grid {
+	margin: 5vh 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4vh;
+}
+.results_grid div {
+	box-shadow: 0 0 5px grey;
+	padding: 2vh;
+	text-align: center;
+	border-radius: 10px;
+}
+.results_grid div h1{
+	font-size: 72px;
+	color: #1178B280;	
+}
+.results_grid div h5 {
+	font-size: 22px;
+}
+.results_grid div p {
+	font-size: 18px;
+	color: grey;
+}

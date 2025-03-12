@@ -1,0 +1,50 @@
+.heder_section {
+    background-color: aqua;
+    background-image: url("../../app/assets/img/bacground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: start;
+    width: 100%;
+    height: 650px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding:2vh 0;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+}
+.hero-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 2vh;
+
+}
+.hero-section h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+.hero-section span {
+    background-color: #07AF91;
+}
+.hero-section h3 {
+    font-weight: 500;
+    font-size: 30px;
+}
+.hero-section button {
+    background-color: #016CA8;
+    color: white;
+    border: none;
+    padding: 2vh;
+    border-radius: 10px;
+    font-size: 18px;
+}

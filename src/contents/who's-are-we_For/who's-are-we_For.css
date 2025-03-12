@@ -1,0 +1,30 @@
+.WhoAreWeFor {
+    margin: 15vh 0;
+}
+.WhoAreWeFor h3{
+  font-size: 32px;
+  color: #1178B2;
+  margin: 10vh 0;
+}
+.WhoAreWeFor_subjects {
+    display: flex;
+    justify-content: space-between;
+}
+.WhoAreWeFor_subjects div{
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 0 10px lightgrey;
+    padding: 3vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.WhoAreWeFor_subjects h1 {
+    font-size: 48px;
+    color: #1178B280;
+}
+.WhoAreWeFor_subjects h5 {
+    font-size: 20px;
+}
+

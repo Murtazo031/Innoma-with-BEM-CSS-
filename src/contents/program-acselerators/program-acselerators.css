@@ -1,0 +1,19 @@
+.ProgramAcseletators {
+	margin-top: 25vh;
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+}
+.ProgramAcseletators h2 {
+	font-size: 32px;
+	color: #2A79C2;
+}
+.ProgramAcseletators p {
+	display: inline;
+	color: #2A79C2;
+	font-size: 18px;
+	font-weight: 600;
+}	
+.ProgramAcseletators span {
+	font-size: 17px;
+}
