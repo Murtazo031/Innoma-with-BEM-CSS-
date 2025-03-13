@@ -42,3 +42,18 @@
     justify-content: center;
     gap: 5vh;
 }
+@media (max-width: 510px){
+    .about-acseleratos{
+        margin-top: 3vh;
+    }
+    .about-acseleratos_numbers{
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .about-acseleratos_numbers div{
+        width: 90%;
+    }
+    .about-acseleratos_playback{
+        height: 50vh;
+    }
+}

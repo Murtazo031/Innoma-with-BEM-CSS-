@@ -40,3 +40,19 @@
 	border-bottom: 1px solid lightgrey;
 	font-size: 22px;
 }
+@media (max-width: 510px){
+	.faq_flex {
+		flex-direction: column;
+		gap: 4vh;
+	}
+	.faq_flex-left{
+		width: 98%;
+		gap: 6vh;
+	}
+	.faq{
+		height: 90vh;
+	}
+	.faq_flex-right{
+		width: 95%;
+	}
+}

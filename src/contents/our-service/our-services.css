@@ -39,9 +39,14 @@
   font-weight: 600;
 }
 @media (max-width: 760px){
-  .services_analitics,
+  .services_analitics{
+    flex-direction: column-reverse;
+  }
 .services_onlineAcselerator{
   flex-direction: column;
+}
+.services_analitics img {
+  width: 100%;
 }
 .services_analitics-text,
 .services_onlineAcselerator-text{

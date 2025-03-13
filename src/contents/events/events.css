@@ -20,3 +20,15 @@
 	padding: 2vh;
 	line-height: 1.5;
 }
+@media (max-width: 510px){
+	.events_flex{
+		flex-direction: column;
+		gap: 3vh;
+	}
+	.events_flex-card{
+		width: 90%;
+	}
+	.events_flex-card img{
+		width: 100%;
+	}
+}

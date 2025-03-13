@@ -17,3 +17,11 @@
 	justify-content: space-between;
 	width: 45%;
 }
+@media (max-width: 510px){
+	.footer_text-pages{
+		display: none;
+	}
+	.footer_text{
+		gap: 3vh;
+	}
+}

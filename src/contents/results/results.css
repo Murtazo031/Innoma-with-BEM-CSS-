@@ -28,3 +28,8 @@
 	font-size: 18px;
 	color: grey;
 }
+@media(max-width:510px){
+	.results_grid{
+		grid-template-columns: repeat(1,1fr);
+	}
+}

@@ -30,3 +30,14 @@
     color: white;
     background-color: #61B5E4;
 }
+@media (max-width: 760px){
+    .consultation_text h2 {
+        font-size: 24px;
+    }
+    .consultation_text p {
+        font-size: 18px;
+    }
+    .consultation_text button{
+        font-size: 16px;
+    }
+}

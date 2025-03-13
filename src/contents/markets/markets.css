@@ -14,12 +14,15 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color:#EEF1F4 ;
+    border-radius: 10px;
 }
 .markets_region div {
     background-color: #EEF1F4;
-    padding: 2vh 8vh;
+    width: 25%;
     font-size: 22px;
     border-radius: 10px;
+    padding: 2vh;
 }
 .markets_mena {
     display: flex;
@@ -87,4 +90,37 @@
 .markets_mena-numbers p {
     font-size: 18px;
     color: grey;
+}
+@media (max-width: 510px){
+    .markets {
+        width: 90%;
+    }
+    .markets_region {
+        width: 105%;
+    }
+    .markets_region div{
+        font-size: 12px;
+    }
+    .markets_mena{
+        flex-direction: column; 
+    }
+    .markets_mena h2 {
+        font-size: 22px;
+    }
+    .markets_mena p {
+        font-size: 16px;
+    }
+    .markets_mena button {
+        font-size: 14px;
+        width: 100%;
+    }
+    .markets_mena-info{
+        width: 98%;
+    }
+    .markets_mena-numbers{
+        width: 98%;
+    }
+    .markets_mena-numbers div{
+       padding: 2vh 4vh;
+    }
 }

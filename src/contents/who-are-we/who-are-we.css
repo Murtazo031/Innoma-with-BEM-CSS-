@@ -29,3 +29,17 @@
 	color: #1178B2;
 	font-weight: 700;
 }
+@media (max-width: 510px){
+	.whoarewe_flex{
+		flex-direction: column-reverse;
+	}
+	.whoarewe_flex-image{
+		width: 98%;
+	}
+	.whoarewe_flex-image img{
+		width: 90%;
+	}
+	.whoarewe_flex-text{
+		width: 98%;
+	}
+}

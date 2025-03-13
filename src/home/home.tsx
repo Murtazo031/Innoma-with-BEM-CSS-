@@ -23,7 +23,7 @@ export default function Home(){
     return <>
     <HeaderSection/>
     <Services/>
-    {/* <WhoAreFor/>
+    <WhoAreFor/>
     <Consultation/>
     <Markets/>
     <AboutAcselerators/>
@@ -39,6 +39,6 @@ export default function Home(){
     <Inviting/>
     <Events/>
     <FAQ/>
-    <Footer/> */}
+    <Footer/>
     </>
 }

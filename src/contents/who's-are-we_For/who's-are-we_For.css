@@ -27,4 +27,12 @@
 .WhoAreWeFor_subjects h5 {
     font-size: 20px;
 }
-
+@media (max-width:760px){
+    .WhoAreWeFor_subjects{
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .WhoAreWeFor_subjects div {
+        width: 90%;
+    }
+}

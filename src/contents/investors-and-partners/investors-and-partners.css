@@ -45,3 +45,28 @@
 	justify-content: center;
 	border-radius: 10px;
 }
+@media (max-width: 510px){
+	.inverstors-partners{
+		height: 90vh;
+	}
+	.inverstors-partners_flex{
+		flex-direction: column;
+		gap: 2vh;
+	}
+	.inverstors-partners h2 {
+		font-size: 24px;
+	}
+	.inverstors-partners_flex-left{
+		width: 98%;
+	}
+	.inverstors-partners_flex-rigth{
+		width: 90%;
+	}
+	.inverstors-partners_flex-rigth div{
+		width: 130px;
+		height: 70px;
+	}
+	.inverstors-partners_flex-rigth div img{
+		width: 50%;
+	}
+}

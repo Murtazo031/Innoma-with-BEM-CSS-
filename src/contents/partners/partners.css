@@ -19,3 +19,11 @@
 	justify-content: center;
 	border-radius: 10px;
 }
+@media (max-width: 510px){
+	.partners_grid{
+		grid-template-columns: repeat(2,1fr);
+	}
+	.partners_grid div img{
+ width: 90%;
+	}
+}

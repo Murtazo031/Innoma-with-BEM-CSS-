@@ -17,3 +17,11 @@
 .ProgramAcseletators span {
 	font-size: 17px;
 }
+@media (max-width:510px){
+	.ProgramAcseletators button {
+		width: 90%;
+	}
+	.ProgramAcseletators span {
+		font-size: 14px;
+	}
+}
